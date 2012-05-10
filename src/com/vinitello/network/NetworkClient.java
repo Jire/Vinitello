@@ -9,5 +9,6 @@ import com.vinitello.network.base.BaseNetworkClient;
 public interface NetworkClient {
 
 	public UUID getUUID();
+	public NetworkSession getSession();
 
 }
